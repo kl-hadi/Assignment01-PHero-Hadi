@@ -1,0 +1,70 @@
+h1{
+    font: 80px;
+    font-family: 'cambria', sans-serif;
+    border-left: 5px solid red;
+    padding: 5px;
+}
+h2{
+    font: 70px;
+    font-family: 'cambria', sans-serif;
+}
+.section_one{
+    display: flex;
+    margin-bottom: 100px;
+    }
+.mission_color{
+    color:orange;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(rgba(245, 26, 26, 0.753), orange);
+    padding: 10px 40px;
+    color: white;
+    font-weight: 800px;
+    border-radius: 5px;
+}
+.half-width{
+    width:50%;
+    margin-right: 40px;
+    margin-bottom:10px;
+}
+.half-width img{
+    width:60%;
+    align-items: center;
+}
+.section_02{
+text-align: center;
+}
+.section_03{
+    display: flex;
+}
+.Sec3_division_01{
+    background-color: azure;
+    margin: 10px;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+.Sec3_division_01 img{
+    width:50%;
+    align-items: center;
+}
+.Sec3_division_02{
+    background-color:rgba(153, 72, 230, 0.658);
+    margin: 10px;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+.Sec3_division_02 img{
+    width:50%;
+    align-items: center;
+}
+.Sec3_division_03{
+    background-color:rgba(230, 72, 177, 0.233);
+    margin: 10px;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+.Sec3_division_03 img{
+    width:50%;
+    align-items: center;
+}
