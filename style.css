@@ -1,17 +1,20 @@
 h1{
-    font: 80px;
+    font-size: 70px;
     font-family: 'cambria', sans-serif;
-    border-left: 5px solid red;
+    border-left: 5px solid rgba(255, 51, 0, 0.836);
     padding: 5px;
 }
 h2{
-    font: 70px;
+    font-size: 50px;
     font-family: 'cambria', sans-serif;
 }
 .section_one{
     display: flex;
     margin-bottom: 100px;
     }
+.section_one p{
+    font-size: 20px ;
+}
 .mission_color{
     color:orange;
 }
@@ -20,17 +23,28 @@ h2{
     background-image: linear-gradient(rgba(245, 26, 26, 0.753), orange);
     padding: 10px 40px;
     color: white;
-    font-weight: 800px;
+    font-size: 22px;
     border-radius: 5px;
 }
 .half-width{
     width:50%;
-    margin-right: 40px;
-    margin-bottom:10px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom:5px;
+    padding: 30px 10px;
 }
-.half-width img{
-    width:60%;
-    align-items: center;
+
+.half-width2{
+    width:50%;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-left: 0;
+    margin-bottom:5px;
+}
+.half-width2 img{
+    width:70%;
+    margin-top: 0;
+    margin-left: 30%;
 }
 .section_02{
 text-align: center;
@@ -39,10 +53,13 @@ text-align: center;
     display: flex;
 }
 .Sec3_division_01{
-    background-color: azure;
-    margin: 10px;
-    padding: 10px 10px;
-    border-radius: 5px;
+    background-color: rgb(190, 219, 219);
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-bottom: 25px;
+    padding: 2px 2px;
+    border-radius: 10px;
+    text-align: center;
 }
 .Sec3_division_01 img{
     width:50%;
@@ -50,9 +67,11 @@ text-align: center;
 }
 .Sec3_division_02{
     background-color:rgba(153, 72, 230, 0.658);
-    margin: 10px;
-    padding: 10px 10px;
-    border-radius: 5px;
+    margin-right: 5%;
+    margin-bottom: 25px;
+    padding: 2px 2px;
+    border-radius: 10px;
+    text-align: center;
 }
 .Sec3_division_02 img{
     width:50%;
@@ -60,11 +79,69 @@ text-align: center;
 }
 .Sec3_division_03{
     background-color:rgba(230, 72, 177, 0.233);
-    margin: 10px;
-    padding: 10px 10px;
-    border-radius: 5px;
+    margin-right: 10%;
+    margin-bottom: 25px;
+    padding: 2px 2px;
+    border-radius: 10px;
+    text-align: center;
 }
 .Sec3_division_03 img{
     width:50%;
     align-items: center;
+}
+.section_three{
+    display: flex;
+    margin-bottom: 25px;
+    }
+.section_three p{
+        font-size: 20px ;
+    }
+.link-button2{
+        text-decoration: none;
+        background-image: linear-gradient(Salmon,tomato);
+        padding: 10px 40px;
+        color: white;
+        font-size: 22px;
+        border-radius: 5px;
+    }
+.section_three_div2{
+        width:50%;
+        margin-top: 20px;
+        margin-right: 20px;
+        margin-bottom:5px;
+    }
+.section_four{
+        display: flex;
+        margin-bottom: 25px;
+        }
+.section_four p{
+            font-size: 20px ;
+        }
+.half-width3{
+            width:50%;
+            margin-top: 0px;
+            margin-right: 10px;
+            margin-left: 0;
+            margin-bottom:5px;
+        }
+.half-width3 img{
+            width:50%;
+            margin-top: 0;
+            margin-left: 30%;
+        }
+footer{
+    border: gray solid;
+    background-color: gray;
+    padding: 20px;
+    ;
+}
+footer p{
+    text-align: center;
+    }
+.mission_color2{
+        color:coral;
+}
+h3 {
+    text-align: center;
+    font-size: 30px;
 }
